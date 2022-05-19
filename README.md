@@ -42,18 +42,18 @@ An overview of the nuclei template project, including statistics on unique tags,
 
 |    TAG    | COUNT |    AUTHOR     | COUNT |    DIRECTORY     | COUNT | SEVERITY | COUNT |  TYPE   | COUNT |
 |-----------|-------|---------------|-------|------------------|-------|----------|-------|---------|-------|
-| cve       |   838 | dhiyaneshdk   |   296 | cves             |   842 | info     |   775 | http    |  2244 |
-| lfi       |   344 | daffainfo     |   289 | vulnerabilities  |   329 | high     |   651 | file    |    50 |
-| panel     |   284 | pikpikcu      |   281 | exposed-panels   |   278 | medium   |   478 | network |    46 |
-| xss       |   259 | pdteam        |   201 | technologies     |   202 | critical |   297 | dns     |    12 |
-| wordpress |   255 | geeknik       |   166 | exposures        |   196 | low      |   156 |         |       |
-| exposure  |   245 | dwisiswant0   |   131 | misconfiguration |   143 |          |       |         |       |
-| rce       |   215 | gy741         |    83 | takeovers        |    65 |          |       |         |       |
-| tech      |   196 | pussycat0x    |    74 | token-spray      |    63 |          |       |         |       |
-| wp-plugin |   178 | princechaddha |    66 | default-logins   |    60 |          |       |         |       |
-| cve2020   |   166 | madrobot      |    63 | file             |    50 |          |       |         |       |
+| cve       |  1168 | daffainfo     |   564 | cves             |  1172 | info     |  1198 | http    |  3209 |
+| panel     |   517 | dhiyaneshdk   |   423 | exposed-panels   |   525 | high     |   885 | file    |    68 |
+| lfi       |   464 | pikpikcu      |   315 | vulnerabilities  |   453 | medium   |   667 | network |    50 |
+| xss       |   371 | pdteam        |   262 | technologies     |   256 | critical |   415 | dns     |    17 |
+| wordpress |   368 | geeknik       |   179 | exposures        |   204 | low      |   182 |         |       |
+| rce       |   296 | dwisiswant0   |   168 | misconfiguration |   200 | unknown  |     6 |         |       |
+| exposure  |   294 | princechaddha |   137 | workflows        |   187 |          |       |         |       |
+| cve2021   |   289 | 0x_akoko      |   134 | token-spray      |   155 |          |       |         |       |
+| tech      |   272 | gy741         |   119 | default-logins   |    96 |          |       |         |       |
+| wp-plugin |   268 | pussycat0x    |   116 | file             |    68 |          |       |         |       |
 
-**177 directories, 2443 files**.
+**262 directories, 3566 files**.
 
 </td>
 </tr>
@@ -70,6 +70,8 @@ We have also added a set of templates to help you understand how things work.
 
 Nuclei-templates is powered by major contributions from the community.
 [Template contributions ](https://github.com/projectdiscovery/nuclei-templates/issues/new?assignees=&labels=&template=submit-template.md&title=%5Bnuclei-template%5D+), [Feature Requests](https://github.com/projectdiscovery/nuclei-templates/issues/new?assignees=&labels=&template=feature_request.md&title=%5BFeature%5D+) and [Bug Reports](https://github.com/projectdiscovery/nuclei-templates/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBug%5D+) are more than welcome.
+
+![Alt](https://repobeats.axiom.co/api/embed/55ee65543bb9a0f9c797626c4e66d472a517d17c.svg "Repobeats analytics image")
 
 💬 Discussion
 -----

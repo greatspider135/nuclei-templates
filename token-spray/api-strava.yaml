@@ -3,8 +3,9 @@ id: api-strava
 info:
   name: Strava API Test
   author: dwisiswant0
-  reference: https://developers.strava.com/docs/getting-started/
   severity: info
+  reference:
+    - https://developers.strava.com/docs/getting-started/
   tags: token-spray,strava
 
 self-contained: true
@@ -19,5 +20,6 @@ requests:
       - type: word
         part: body
         words:
-          - "Authorization Error"
-        negative: true
+          - '"id"'
+          - '"username"'
+        condition: and

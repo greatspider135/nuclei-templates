@@ -4,7 +4,8 @@ info:
   name: AppVeyor API Test
   author: dwisiswant0
   severity: info
-  reference: https://www.appveyor.com/docs/api/
+  reference:
+    - https://www.appveyor.com/docs/api/
   tags: token-spray,appveyor
 
 self-contained: true
@@ -20,5 +21,6 @@ requests:
       - type: word
         part: body
         words:
-          - "Authorization required"
-        negative: true
+          - '"roleId":'
+          - '"created":'
+        condition: and
